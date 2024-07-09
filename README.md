@@ -1,6 +1,8 @@
 # Barcelona Population Analysis
 
-## A Python and Power BI Project about the evolution of population in Barcelona and its Neighborhoods
+![Barcelona](dashboard_images/dashboard_cover.jpg)
+
+### A Python and Power BI Project about the evolution of population in Barcelona and its Neighborhoods
 
 These recent years people is leaving small towns to settle in big cities, that usually offers more opportunities and comfortability. There's even been many news talking about small towns offering free houses to new villagers in order to be more competitive. But how much has the population of cities really grown over the last years? This project tries to give an answer to this question, focused on a city to wich I belong nowadays, Barcelona. We'll try to answer using official City Hall data, and using all the steps in a typical Data Analytics project:
 
@@ -80,6 +82,18 @@ Apart from that, I changed data types, more specifically, for the Date column, c
 ### Data Analysis
 
 You can see all the results of my Data in the analysis_results directory. As we can see there, there's an evolution in every District of Barcelona, and there's even an analysis on Districts that have grown the most between 2015 and 2024.
+
+You can see here some of the most interesting analysis made on this step:
+
+Population Growth in Barcelona over the last 10 years
+![population_growth](analysis_results/population_growth.png)
+
+2024 distribution of population per District and Neighborhood
+![district_neighborhood_population](analysis_results/district_neighborhood_population_2024.png)
+
+2015 - 2024 population comparison per District in Barcelona
+![2015-2024_population_comparison_per_District](analysis_results/2024-2015_population_comparison_per_district.png)
+
 
 ### Dashboard and Insights
 
