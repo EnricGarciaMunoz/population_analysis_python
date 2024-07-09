@@ -12,11 +12,10 @@ These recent years people is leaving small towns to settle in big cities, that u
 * Data Analysis
 * Dashboard and Insights
 
-We'll see in more detail these 5 parts in a minute.
 
 ## Steps of the project
 
-As mentioned before, we defined steps to get the results we want from this project. Let's classify the project by those steps:
+We defined steps to get the results we want from this project. Let's classify the project by those steps:
 
 ### Question Formulation
 
