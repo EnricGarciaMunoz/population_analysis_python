@@ -14,42 +14,6 @@ These recent years people is leaving small towns to settle in big cities, that u
 
 We'll see in more detail these 5 parts in a minute.
 
-
-## Project Structure
-
-The Project Structure goes as follows:
-
-population_analysis_python_powerbi/
-├── analysis_results/
-│ ├── 2024-2015_population_comparison_per_district.png
-│ ├── 2024-2015_population_ratio_per_district.png
-│ ├── district_neighborhood_population_2024.png
-│ ├── district_population_2024.png
-│ ├── neighborhood_population_2024.png
-│ ├── population_growth.png
-│ ├── population_growth_per_district.png
-├── data_cleaning/
-│ ├── cleaned_population_data.csv
-├── sources/
-│ ├── 2015_pad_mdbas.csv
-│ ├── 2016_pad_mdbas.csv
-│ ├── 2017_pad_mdbas.csv
-│ ├── 2018_pad_mdbas.csv
-│ ├── 2019_pad_mdbas.csv
-│ ├── 2020_pad_mdbas.csv
-│ ├── 2021_pad_mdbas.csv
-│ ├── 2022_pad_mdbas.csv
-│ ├── 2023_pad_mdbas.csv
-│ ├── 2024_pad_mdbas.csv
-├── dashboard_images/
-│ ├── barcelona_district_map.jpg
-│ ├── dashboard_cover.jpg
-├── main.py
-├── population_dashboard.pbix
-├── README.md
-├── requirements.txt
-
-
 ## Steps of the project
 
 As mentioned before, we defined steps to get the results we want from this project. Let's classify the project by those steps:
@@ -85,13 +49,16 @@ You can see all the results of my Data in the analysis_results directory. As we 
 
 You can see here some of the most interesting analysis made on this step:
 
-Population Growth in Barcelona over the last 10 years
+
+- Population Growth in Barcelona over the last 10 years
 ![population_growth](analysis_results/population_growth.png)
 
-2024 distribution of population per District and Neighborhood
+
+- 2024 distribution of population per District and Neighborhood
 ![district_neighborhood_population](analysis_results/district_neighborhood_population_2024.png)
 
-2015 - 2024 population comparison per District in Barcelona
+
+- 2015 - 2024 population comparison per District in Barcelona
 ![2015-2024_population_comparison_per_District](analysis_results/2024-2015_population_comparison_per_district.png)
 
 
@@ -123,20 +90,27 @@ pip install -r requirements.txt
 
 - Clone the repository with the following command:
 
+```bash
 git clone <url_del_repositorio>
+```
 
 - Go to the project directory:
 
+```bash
 cd population_analysis_python_powerbi
+```
 
 - Install the dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 - Execute main.py:
 
+```bash
 python main.py
-
+```
 
 This will execute the project. Then you can go to the Power BI dashboard attached to the project. 
 
